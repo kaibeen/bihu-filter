@@ -1,0 +1,18 @@
+{
+  "name": "bihu过滤",
+  "version": "4.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://www.zhihu.com/*"],
+      "js": ["content-script.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "48": "icon48.png"
+  },
+  // "host_permissions": ["<all_urls>"],
+  // "permissions": ["scripting"],
+  "key": "AAAAB3NzaC1yc2EAAAADAQABAAABAQCnCTnUK8jgYTxnQLdtE6QzkZgn3rZv0U1naCx4csdSDqYEBXgW2pR2m/uUIAU1HzAUfkDckqTezyIG1bPw8l5X8FyWfgMQANFgTPXGRNXTmDSqHcqvS7zvuEr0xF12oGLBKa7cdEsaQzdfDWsm5BlwFIPfPXUokaHEGvxPBjrXHQmx+Z4xAyhzNh+v5bFr63lsL0ysS8z4KVKc1G1lcUZnp7Oz9n0pZP9QW0Oei2KCumDqGpqVd249232a0E9TUeQ+lqAxiN4ybzBgUT5al7Yh1nIhGHxPyRnihtHmx+hxupCuhzXeaoKjWiADp+FEK/aPAzvP5ynLDQHelez/eGdF"
+}
